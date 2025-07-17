@@ -1,0 +1,17 @@
+name: Read hello.txt
+
+on:
+  push:
+    branches: [ main ]
+
+
+jobs:
+
+  show-hello-content:
+    runs-on: ubuntu-latest
+    steps:
+    - name: Get the code
+      uses: actions/checkout@v4
+
+    - name: Show what's inside hello.txt
+      run: cat hello.txt 
