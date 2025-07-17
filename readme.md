@@ -1,2 +1,2 @@
-# Ostad git first assignment
-# Kamrun Nahar Ruma
+## Ostad Mastering DevOps
+Mastering DevOps: From Fundamentals to Advanced Practices
